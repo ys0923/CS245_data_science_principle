@@ -1,0 +1,1 @@
+path_dir = r"E:\SJTU\数据科学基础\Animals_with_Attributes2\Features\ResNet101"
