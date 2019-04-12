@@ -16,13 +16,13 @@ test_labels = np.load("test_labels.npy")
 
 
 # k-fold validation
-kfold= KFold(n_splits=3,random_state =None)
+kfold= KFold(n_splits=5,random_state =None)
 
 
 # metricslist = ["euclidean", "manhattan", "chebyshev"]
-metricslist = ["euclidean", "manhattan"]
+metricslist = ["euclidean", "manhattan", "chebyshev"]
 #range of k
-kmax = 15
+kmax = 30
 kmin = 5
 numk = (kmax - kmin)/5
 train_ac_metrics_list = []
